@@ -1,0 +1,21 @@
+.title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+}
+
+.channelTitle {
+    font-size: 1rem;
+    margin-top: 0.8rem;
+}
+
+.description {
+    font-size: .8rem;
+    color:#606060;
+    text-align: left;
+    margin-top: 0.8rem;
+}
+
+.card {
+    padding: 1.2rem;
+}
