@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { SearchForm } from "../components/SearchForm";
 import { VideoList } from "../components/VideoList";
 import { VideoModal } from "../components/VideoModal";
-import { Card, CardColumns } from "react-bootstrap";
 import _ from "lodash";
 
 const YOUTUBE_API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
