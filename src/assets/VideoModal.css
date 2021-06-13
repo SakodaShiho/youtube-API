@@ -1,0 +1,36 @@
+.modal-content {
+    width: 700px;
+    border-radius: 15px;
+}
+
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+    }
+}
+
+.modal-description {
+    margin: 1.5rem 2rem;
+    font-size: 1rem;
+}
+
+.modal-channelTitle {
+    margin: 1.5rem 2rem;
+}
+
+.modal-body iframe {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.youtube_link {
+    margin: 1.5rem 2rem;
+    text-align: right;
+}
+
+.youtube_link a:hover {
+    text-decoration: none;
+    transition: 1s;
+}

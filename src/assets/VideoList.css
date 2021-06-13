@@ -17,5 +17,30 @@
 }
 
 .card {
-    padding: 1.2rem;
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+}
+
+
+.card-img-top {
+    cursor: pointer;
+}
+
+.gray {
+    background-color: #e3e3e3;
+}
+
+.border-none {
+    border-radius: 15px;
+}
+
+.card-header {
+    border-bottom: none;
+    padding: none;
+    background-color:rgba(0,0,0,0);
+}
+
+.accordion-card {
+    background-color:rgba(0,0,0,0);
 }
