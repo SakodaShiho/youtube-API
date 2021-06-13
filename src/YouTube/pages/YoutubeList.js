@@ -35,7 +35,6 @@ export const YoutubeList = () => {
     fetch(YOUTUBE_SERACH_API_URI + queryParams)
       .then((response) => response.json())
       .then((data) => {
-        console.log("data::::::::", data);
         setVideos(
           data.items.map((item) => {
             item.snippet.title = _.unescape(item.snippet.title);

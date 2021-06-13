@@ -11,7 +11,6 @@ export const App = () => {
       {/* <MemberList /> */}
       <React.StrictMode>
         <YoutubeList />
-        {/* <Test /> */}
       </React.StrictMode>
     </div>
   );
