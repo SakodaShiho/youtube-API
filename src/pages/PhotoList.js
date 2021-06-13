@@ -36,11 +36,10 @@ export const PhotoList = () => {
   }, [query]);
 
   const onSubmit = (e) => {
-    e.preventDefault(); //submitボタンにもともと備わっている画面遷移を打ち消す
-    setQuery(text); //inputタグに入れられた文字が入る
+    e.preventDefault();
+    setQuery(text);
     notify(text);
-    setText(""); //フォームはまっさらな状態に戻したい
-    console.log("onSubmitが呼ばれました。");
+    setText("");
   };
 
   const notify = (text) => {

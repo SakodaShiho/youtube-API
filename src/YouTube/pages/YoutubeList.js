@@ -46,11 +46,8 @@ export const YoutubeList = () => {
   }, [query]);
 
   const onSubmit = (e) => {
-    e.preventDefault(); //submitボタンにもともと備わっている画面遷移を打ち消す
-    setQuery(text); //inputタグに入れられた文字が入る
-    // notify(text);
-    // setText(""); //フォームはまっさらな状態に戻したい
-    console.log("onSubmitが呼ばれました。");
+    e.preventDefault();
+    setQuery(text);
   };
 
   const handleClose = () => setShow(false);
